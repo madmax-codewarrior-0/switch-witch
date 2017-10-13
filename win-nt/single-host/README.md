@@ -39,14 +39,14 @@
 
 Simply run `run-me.bat`, which will execute the Powershell scripts normally(no packet capture left behind).
 Please run the script in a Powershell console for extra options and functionality.
-Use switch `-h` with `switch-witch.ps1` in Powershell for help.
+Use option `-h` with `switch-witch.ps1` in Powershell for help.
 
 ***
 
 ## Custom Additions
 
   * VLAN Naming
-    * `VLANS.txt` is put in the main script directory (`<your_dir>\win-nit\single-host\VLANS.txt`)
+    * `VLANS.txt` is put in the main script directory (`<your_dir>\win-nt\single-host\VLANS.txt`)
     * Allows specified VLAN IDs to be named and recalled in the script.  Example output: `Port VLAN ID:    1234 (SOOPER_BEST_W)`
     * File Contents Format: `<NUM>=<NAME>`
       ```python
