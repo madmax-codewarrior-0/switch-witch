@@ -43,6 +43,10 @@ Use option `-h` with `switch-witch.ps1` in Powershell for help.
 
 ***
 
+## Notes
+
+IP phones running on the VoIP VLAN with IP pass through will not pass the LLDP packet announcements through.  The end device must be connected directly to the switch. 
+
 ## Custom Additions
 
   * VLAN Naming
