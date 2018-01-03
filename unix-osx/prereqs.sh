@@ -34,6 +34,7 @@ then
 	dos2unix sw.sh
 
 	if [ -e ./VLANS.txt ]
+	then
 	  dos2unix VLANS.txt
 	fi
 
@@ -60,6 +61,7 @@ brew install dos2unix
 dos2unix sw.sh
 
 if [ -e ./VLANS.txt ]
+then
   dos2unix VLANS.txt
 fi
 
