@@ -1,3 +1,15 @@
+Fri Jan  5 12:36:42 PDT 2018
+prereqs.sh - v1.0.2
+
+	- Added check to see if brew (for Mac) is already installed;
+	  quit if installed.
+
+Wed Jan  3 13:46:55 PDT 2018
+prereqs.sh - v1.0.1
+
+  	- Actually syntatically completed the if statements with the
+	  then statements
+
 Wed Aug  2 08:18:55 PDT 2017
 sw.sh      - v1.3.0
 prereqs.sh - v1.0.0

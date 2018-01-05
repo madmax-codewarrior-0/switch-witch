@@ -9,7 +9,7 @@
 #   Information Services - Client Services - Service Desk
 #   maximillian.schmidt@oregonstate.edu
 # Version:
-#   v1.0.0
+#   v1.0.2
 # License:
 #   This software is covered by the GNU General Public License Version 3,
 #   29 June 2007. See https://www.gnu.org/licenses/gpl.txt for full
@@ -35,10 +35,17 @@ then
 
 	if [ -e ./VLANS.txt ]
 	then
-	  dos2unix VLANS.txt
+		dos2unix VLANS.txt
 	fi
 
 	exit 0
+else
+
+	if [ -e /usr/local/bin/brew ]
+	then
+		printf "Brew already installed! No setup required...\n\n"
+		exit 0
+	fi
 fi
 
 printf "Installing homebrew...\n\n"
@@ -62,7 +69,7 @@ dos2unix sw.sh
 
 if [ -e ./VLANS.txt ]
 then
-  dos2unix VLANS.txt
+	dos2unix VLANS.txt
 fi
 
 printf "\n\n\nFinished\n\n\nSetup Complete!\nYou may now run the main script with 'sudo ./sw.sh'\n\nExiting...\n\n"
