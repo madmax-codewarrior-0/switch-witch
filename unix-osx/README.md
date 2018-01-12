@@ -36,7 +36,7 @@ Run from the terminal/console: `sudo ./sw.sh [options]` (or however you need to 
 ## Custom Additions
 
   * VLAN Naming
-    * `VLANS.txt` is put in the main script directory (`<your_dir>\win-nit\single-host\VLANS.txt`)
+    * `VLANS.txt` is put in the main script directory (`<your_dir>/unix-osx/VLANS.txt`)
     * Allows specified VLAN IDs to be named and recalled in the script.  Example output: `Port VLAN ID:    1234 (SOOPER_BEST_W)`
     * File Contents Format: `<NUM>=<NAME>`
       ```python
