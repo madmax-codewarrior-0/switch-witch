@@ -7,8 +7,7 @@ that actively uses and supports the Link Layer Discovery Protocol.
 ***
 ## Devloper Info
 ### Maximillian Schmidt ( @cascadeth )
-##### Oregon State University - ISCS - Service Desk
-##### maximillian.schmidt(at)oregonstate.edu
+##### cascadeth(at)gmail.com
 Networking, Windows, Unix, Printers, and making stuff fit my needs in an
 ever changing technological environment.  Find me on OSU-IT Slack: @schmidt.
 Please IM or email me with thoughts, questions, or ideas!
@@ -17,7 +16,7 @@ Please IM or email me with thoughts, questions, or ideas!
 ### About
 These scripts are currently designed to work with Oregon State University, Information
 Services - Client Services - Service Desk, Community Network operations.
-They have been developed for internal departmental use, and can be used in other
+They have been developed for internal departmental use, but can be used in other
 support departments or publicly as well.  If something doesn't quite fit or you
 have feature requests, please feel free to email the developer.  Please see the wiki for
 details on the scripts(work-in-progress).
