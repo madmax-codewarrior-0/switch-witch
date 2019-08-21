@@ -9,12 +9,17 @@
   * WinPcap Driver --- You will need to get this if you haven't already.  You can find it [here](https://www.winpcap.org/install/default.htm) or run `.\switch-witch -i`
 
   * Wireshark      --- Used to parse the dumped packet.  You can find it [here](https://www.wireshark.org/#download)
-     * Technically optional, but really does the information handling.
+     * Technically optional, but Tshark really does the information handling
 
 ### Install
 
-  * Open an elevated Powershell(Run as Administrator).  Also make sure you have script execution rights on your device.  Navigate to the directory of the main script `switch-witch.ps1` and run: `.\switch-witch.ps1 -i`  This will download the WinPcap driver from the WinPcap organization's site and a simple compiled executable to run the WinPcap driver installer for you.  This launcher executes the driver installer and just presses Return/Enter for you).  
-    * This method will be phased out when a WinPcap driver silent installer is developed.  
+  * Open an elevated Powershell(Run as Administrator)
+     * Also make sure you have script execution rights on your device  
+  * Navigate to the directory of the main script `switch-witch.ps1` and run: `.\switch-witch.ps1 -i`.  This will: 
+     * Download the WinPcap driver from the WinPcap organization's site
+     * Download a simple compiled executable to run the WinPcap driver installer for you (executes the driver installer and just presses Return/Enter for you).  
+     * This method will be phased out when a WinPcap driver silent installer is developed.
+  * Install Wireshark (be sure Tshark is installed with the package)
 
 ***
 
