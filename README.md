@@ -6,11 +6,11 @@ that actively uses and supports the Link Layer Discovery Protocol.
 
 ***
 ## Devloper Info
-### Maximillian Schmidt ( @cascadeth )
+### @cascadeth
 ##### cascadeth(at)gmail.com
 Networking, Windows, Unix, Printers, and making stuff fit my needs in an
-ever changing technological environment.  Find me on OSU-IT Slack: @schmidt.
-Please IM or email me with thoughts, questions, or ideas!
+ever changing technological environment.  
+Please email me with thoughts, questions, or ideas!
 
 ***
 ### About
